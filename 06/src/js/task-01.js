@@ -1,4 +1,4 @@
-const $ = cheerio.load(html);
+const cheerio = require("cheerio");
 
 const categoriesList = $("#categories");
 
